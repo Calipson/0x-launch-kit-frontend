@@ -1,8 +1,23 @@
 {
     "general": {
-        "title": "Launch Kit"
+        "title": "Ethexium"
     },
     "tokens": [
+        {
+            "symbol": "etex",
+            "name": "Ethexium",
+            "primaryColor": "#ffffff",
+            "icon": "assets/icons/etex.svg",
+            "addresses": {
+                "1": "0x712e32d339a46105649aec084c77b6b428502f86",
+                "3": "0x712e32d339a46105649aec084c77b6b428502f86",
+                "4": "0x712e32d339a46105649aec084c77b6b428502f86",
+                "42": "0x712e32d339a46105649aec084c77b6b428502f86",
+                "50": "0x712e32d339a46105649aec084c77b6b428502f86"
+            },
+            "decimals": 18,
+            "displayDecimals": 2
+        },        
         {
             "symbol": "zrx",
             "name": "0x Protocol Token",
@@ -106,6 +121,10 @@
     ],
     "pairs": [
         {
+            "base": "etex",
+            "quote": "weth"
+        },
+        {
             "base": "zrx",
             "quote": "weth"
         },
@@ -135,6 +154,10 @@
         }
     ],
     "marketFilters": [
+        {
+            "text": "ETEX",
+            "value": "etex"
+        },
         {
             "text": "ETH",
             "value": "weth"
