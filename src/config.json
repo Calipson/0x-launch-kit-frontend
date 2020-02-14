@@ -4,33 +4,14 @@
     },
     "tokens": [
         {
-            "symbol": "etex",
-            "name": "Ethexium",
+            "symbol": "usdt",
+            "name": "Tether USD",
             "primaryColor": "#ffffff",
-            "icon": "assets/icons/etex.svg",
+            "icon": "assets/icons/usdt.svg",
             "addresses": {
-                "1": "0x712e32d339a46105649aec084c77b6b428502f86",
-                "3": "0x712e32d339a46105649aec084c77b6b428502f86",
-                "4": "0x712e32d339a46105649aec084c77b6b428502f86",
-                "42": "0x712e32d339a46105649aec084c77b6b428502f86",
-                "50": "0x712e32d339a46105649aec084c77b6b428502f86"
+                "1": "0xdac17f958d2ee523a2206206994597c13d831ec7"
             },
-            "decimals": 18,
-            "displayDecimals": 2
-        },        
-        {
-            "symbol": "zrx",
-            "name": "0x Protocol Token",
-            "primaryColor": "#333333",
-            "icon": "assets/icons/zrx.svg",
-            "addresses": {
-                "1": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
-                "3": "0xff67881f8d12f372d91baae9752eb3631ff0ed00",
-                "4": "0x8080c7e4b81ecf23aa6f877cfbfd9b0c228c6ffa",
-                "42": "0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa",
-                "50": "0x871dd7c2b4b25e1aa18728e9d5f2af4c4e431f5c"
-            },
-            "decimals": 18,
+            "decimals": 6,
             "displayDecimals": 2
         },
         {
@@ -47,6 +28,100 @@
             },
             "decimals": 18,
             "displayDecimals": 2
+        },
+        {
+            "decimals": 18,
+            "symbol": "tusd",
+            "name": "True USD",
+            "primaryColor": "#68CCBB",
+            "icon": "assets/icons/tusd.svg",
+            "addresses": {
+                "1": "0x0000000000085d4780B73119b644AE5ecd22b376"
+                }
+        },
+        {
+            "decimals": 6,
+            "symbol": "usdc",
+            "name": "USD Coin",
+            "primaryColor": "#68CCBB",
+            "icon": "assets/icons/usdc.svg",
+            "addresses": {
+                "1": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                }
+        },
+        {
+            "decimals": 18,
+            "symbol": "bnb",
+            "name": "BNB Token",
+            "primaryColor": "#68CCBB",
+            "icon": "assets/icons/bnb.svg",
+            "addresses": {
+                "1": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52"
+                }
+        },
+        {
+            "decimals": 18,
+            "symbol": "link",
+            "name": "ChainLink",
+            "primaryColor": "#68CCBB",
+            "icon": "assets/icons/link.svg",
+            "addresses": {
+                "1": "0x514910771af9ca656af840dff83e8264ecf986ca"
+                }
+        },
+        {
+            "decimals": 18,
+            "symbol": "okb",
+            "name": "OKB",
+            "primaryColor": "#68CCBB",
+            "icon": "assets/icons/okb.svg",
+            "addresses": {
+                "1": "0x75231f58b43240c9718dd58b4967c5114342a86c"
+                }
+        },
+        {
+            "decimals": 18,
+            "symbol": "ht",
+            "name": "Huobi Token",
+            "primaryColor": "#68CCBB",
+            "icon": "assets/icons/okb.svg",
+            "addresses": {
+                "1": "0x6f259637dcd74c767781e37bc6133cd6a68aa161"
+                }
+        },
+        {
+            "decimals": 18,
+            "symbol": "pax",
+            "name": "Paxos Standard",
+            "primaryColor": "#68CCBB",
+            "icon": "assets/icons/pax.svg",
+            "addresses": {
+                "1": "0x8e870d67f660d95d5be530380d0ec0bd388289e1"
+                }
+        },
+        {
+            "decimals": 18,
+            "symbol": "etex",
+            "name": "Ethexium",
+            "primaryColor": "#ffffff",
+            "icon": "assets/icons/etex.svg",
+            "addresses": {
+                "1": "0x712e32d339a46105649aec084c77b6b428502f86"
+            }
+        },        
+        {
+            "decimals": 18,
+            "symbol": "zrx",
+            "name": "0x Protocol Token",
+            "primaryColor": "#333333",
+            "icon": "assets/icons/zrx.svg",
+            "addresses": {
+                "1": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+                "3": "0xff67881f8d12f372d91baae9752eb3631ff0ed00",
+                "4": "0x8080c7e4b81ecf23aa6f877cfbfd9b0c228c6ffa",
+                "42": "0x2002d3812f58e35f0ea1ffbf80a75a38c32175fa",
+                "50": "0x871dd7c2b4b25e1aa18728e9d5f2af4c4e431f5c"
+            }
         },
         {
             "decimals": 18,
@@ -121,6 +196,74 @@
     ],
     "pairs": [
         {
+            "base": "usdt",
+            "quote": "weth"
+        },
+        {
+            "base": "usdt",
+            "quote": "bnb"
+        },
+        {
+            "base": "usdt",
+            "quote": "link"
+        },
+        {
+            "base": "usdt",
+            "quote": "okb"
+        },
+        {
+            "base": "usdt",
+            "quote": "ht"
+        },
+        {
+            "base": "usdt",
+            "quote": "pax"
+        },
+        {
+            "base": "usdt",
+            "quote": "etex"
+        },
+        {
+            "base": "usdt",
+            "quote": "zrx"
+        },
+        {
+            "base": "usdt",
+            "quote": "mkr"
+        },
+        {
+            "base": "usdt",
+            "quote": "rep"
+        },
+        {
+            "base": "tusd",
+            "quote": "weth"
+        },
+        {
+            "base": "usdc",
+            "quote": "weth"
+        },
+        {
+            "base": "bnb",
+            "quote": "weth"
+        },
+        {
+            "base": "link",
+            "quote": "weth"
+        },
+        {
+            "base": "okb",
+            "quote": "weth"
+        },
+        {
+            "base": "ht",
+            "quote": "weth"
+        },
+        {
+            "base": "pax",
+            "quote": "weth"
+        },
+        {
             "base": "etex",
             "quote": "weth"
         },
@@ -155,8 +298,8 @@
     ],
     "marketFilters": [
         {
-            "text": "ETEX",
-            "value": "etex"
+            "text": "USDT",
+            "value": "usdt"
         },
         {
             "text": "ETH",
