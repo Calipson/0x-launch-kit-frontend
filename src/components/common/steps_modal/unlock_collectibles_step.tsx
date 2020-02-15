@@ -35,7 +35,7 @@ class UnlockCollectiblesStep extends React.Component<Props> {
         const title = `Selling ${collectibleName}`;
         const confirmCaption = `Confirm on Metamask to ${
             isUnlocked ? 'lock' : 'unlock'
-        } ${collectibleName} for trading on 0x.`;
+        } ${collectibleName} for trading on Ethexium.`;
         const loadingCaption = isUnlocked
             ? `Locking ${collectibleName}. You won't be able to use it for trading until you unlock it again`
             : `Unlocking ${collectibleName}. It will remain unlocked for future trades`;
