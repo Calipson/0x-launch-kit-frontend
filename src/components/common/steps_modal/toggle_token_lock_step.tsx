@@ -38,7 +38,7 @@ class ToggleTokenLockStep extends React.Component<Props> {
         const title = context === 'order' ? 'Order setup' : isUnlocked ? 'Lock token' : 'Unlock token';
         const confirmCaption = `Confirm on Metamask to ${
             isUnlocked ? 'lock' : 'unlock'
-        } ${tokenSymbol} for trading on 0x.`;
+        } ${tokenSymbol} for trading on Ethexium.`;
         const loadingCaption = isUnlocked
             ? `Locking ${tokenSymbol}. You won't be able to use it for trading until you unlock it again`
             : `Unlocking ${tokenSymbol}. It will remain unlocked for future trades`;
