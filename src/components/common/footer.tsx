@@ -84,8 +84,8 @@ const poweredBySVG = () => {
 export const Footer: React.FC<Props> = props => {
     return (
         <FooterWrapper title={GIT_COMMIT} {...props}>
-            <a href="https://0x.org/" target="_blank" rel="noopener noreferrer">
-                {poweredBySVG()}
+            <a href="https://www.ethexium.com/" target="_blank" rel="noopener noreferrer">
+                www.ethexium.com
             </a>
         </FooterWrapper>
     );
