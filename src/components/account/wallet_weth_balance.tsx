@@ -232,7 +232,7 @@ class WalletWethBalance extends React.PureComponent<Props, State> {
                 </Card>
                 {inDropdown ? null : (
                     <Note>
-                        wETH is used for trades on 0x
+                        wETH is used for trades on Ethexium Exchange
                         <br />1 wETH = 1 ETH
                     </Note>
                 )}
