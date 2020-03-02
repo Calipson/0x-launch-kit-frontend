@@ -84,7 +84,7 @@
             "symbol": "ht",
             "name": "Huobi Token",
             "primaryColor": "#68CCBB",
-            "icon": "assets/icons/okb.svg",
+            "icon": "assets/icons/ht.svg",
             "addresses": {
                 "1": "0x6f259637dcd74c767781e37bc6133cd6a68aa161"
                 }
