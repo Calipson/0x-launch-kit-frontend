@@ -6,8 +6,8 @@ export const ERC20_APP_BASE_PATH = '/trade';
 export const ERC721_APP_BASE_PATH = '/game-exchange';
 export const DEFAULT_BASE_PATH = process.env.REACT_APP_DEFAULT_BASE_PATH || ERC20_APP_BASE_PATH;
 
-export const RELAYER_URL = process.env.REACT_APP_RELAYER_URL || 'https://api.ethexium.com/sra/v3';
-export const RELAYER_WS_URL = process.env.REACT_APP_RELAYER_WS_URL || 'wss://api.ethexium.com/';
+export const RELAYER_URL = process.env.REACT_APP_RELAYER_URL || 'http://localhost:3000/sra/v3';
+export const RELAYER_WS_URL = process.env.REACT_APP_RELAYER_WS_URL || 'ws://localhost:3000/sra/v3';
 
 export const TX_DEFAULTS = {
     gas: 1000000,
