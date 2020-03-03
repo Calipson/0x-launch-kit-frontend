@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26pt" height="26pt" viewBox="0 0 26 26" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="112.27" y1="112.27" x2="320.73" y2="320.73" >
+<stop offset="0" style="stop-color:rgb(16.470588%,72.156863%,90.196078%);stop-opacity:1;"/>
+<stop offset="0.53" style="stop-color:rgb(16.078431%,79.215686%,82.352941%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(18.039216%,89.411765%,74.509804%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="175.55" y1="175.91" x2="258.18" y2="258.54" gradientTransform="matrix(0.0600462,0,0,0.0600462,0,0)">
+<stop offset="0" style="stop-color:rgb(16.470588%,72.156863%,90.196078%);stop-opacity:1;"/>
+<stop offset="0.53" style="stop-color:rgb(16.078431%,79.215686%,82.352941%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(18.039216%,89.411765%,74.509804%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<rect x="0" y="0" width="26" height="26" style="fill:rgb(10.588235%,12.156863%,16.862745%);fill-opacity:1;stroke:none;"/>
+<path style="fill-rule:nonzero;fill:rgb(10.588235%,12.156863%,16.862745%);fill-opacity:1;stroke-width:27.222;stroke-linecap:butt;stroke-linejoin:bevel;stroke:url(#linear0);stroke-miterlimit:4;" d="M 145.070613 93.092398 L 287.929387 93.092398 L 287.929387 339.907602 L 145.070613 339.907602 Z M 145.070613 93.092398 " transform="matrix(0.0600462,0,0,0.0600462,0,0)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 15.601562 15.339844 L 13.824219 15.339844 L 13.824219 17.203125 L 12.21875 17.203125 L 12.21875 15.339844 L 10.441406 15.339844 L 10.441406 13.738281 L 15.601562 13.738281 Z M 15.601562 10.746094 L 13.824219 10.746094 L 13.824219 8.886719 L 12.21875 8.886719 L 12.21875 10.746094 L 10.441406 10.746094 L 10.441406 12.351562 L 15.601562 12.351562 Z M 15.601562 10.746094 "/>
+</g>
+</svg>
