@@ -298,16 +298,12 @@
     ],
     "marketFilters": [
         {
-            "text": "USDT",
-            "value": "usdt"
+            "text": "ETEX",
+            "value": "etex"
         },
         {
             "text": "ETH",
             "value": "weth"
         },
-        {
-            "text": "ETEX",
-            "value": "etex"
-        }
     ]
 }
